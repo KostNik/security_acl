@@ -106,7 +106,11 @@ insert into acl_object_identity(id, object_id_class, object_id_identity, parent_
 
 insert into acl_entry(acl_object_identity, ace_order, sid, mask, granting, audit_success, audit_failure)
   VALUES (1,1,1,1,true,true,true);
-  insert into acl_entry(acl_object_identity, ace_order, sid, mask, granting, audit_success, audit_failure)
+
+insert into acl_entry(acl_object_identity, ace_order, sid, mask, granting, audit_success, audit_failure)
+  VALUES (1,2,1,16,true,true,true);
+
+insert into acl_entry(acl_object_identity, ace_order, sid, mask, granting, audit_success, audit_failure)
   VALUES (2,1,2,1,true,true,true);
 	
 

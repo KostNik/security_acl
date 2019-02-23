@@ -68,7 +68,7 @@
 				</sec:authorize>
 				<sec:authorize access="hasAuthority('ROLE_ADMIN')">
 					<a class="btn btn-default" 
-						href="<spring:url value="/appointments/confirm"/>" role="button">Confirm</a>
+						href="<spring:url value="/appointments/confirm/{appointmentId}"/>" role="button">Confirm</a>
 				</sec:authorize>
 				<sec:authorize url="/schedule/*">
 					<a class="btn btn-default" 
